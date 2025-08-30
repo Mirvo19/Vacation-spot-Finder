@@ -1,0 +1,70 @@
+body{
+    background-color:blanchedalmond ;
+}
+
+.title{
+    color: rgb(78, 67, 67);
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    margin-top: 20px;
+}
+.title:hover{
+    color: rgb(150, 113, 113);
+    cursor:default ;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(78, 67, 67);
+    border: none;
+    border-radius: 15px;
+}
+.btn1:hover{
+    background-color: rgb(150, 113, 113);
+}
+.demo{
+    text-align: center;
+    margin-top: 20px;
+    font-family:cursive;
+    font-size: 20px;
+}
+.output{
+    text-align: center;
+    margin-top: 20px;
+    font-family:cursive;
+    font-size: 20px;
+    color: rgb(82, 56, 56);
+
+}
+.buffer{
+    text-align: center;
+    margin-top: 20px;
+    font-family:cursive;
+    font-size: 20px;
+    color: rgb(82, 56, 56);
+}
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family:cursive;
+    font-size: 20px;
+    color: rgb(82, 56, 56);
+    line-height: 10px;
+}
+.footer:hover{
+    color: rgb(201, 136, 92);
+    cursor:default ;
+}
+
